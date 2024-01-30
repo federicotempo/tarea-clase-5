@@ -24,6 +24,9 @@ $botonMostrarInformacion.onclick = function(){
   const edadUsuario = Number(document.querySelector("#edad-usuario").value);
 
   document.querySelector("h1").innerText = `Bienvenido, ${nombreDeUsuario}!`;
-  document.querySelector("#informacion-usuario").innerText = `Tu primer nombres es: ${nombreDeUsuario}, tu segundo nombre: ${segundoNombreUsuario}, tu apellido: ${apellidoUsuario} y tu edad es: ${edadUsuario}`
+  document.querySelector("#informacion-usuario").innerText = `Tu primer nombre es: ${nombreDeUsuario}
+   Tu segundo nombre: ${segundoNombreUsuario}
+   Tu apellido: ${apellidoUsuario}
+   Tu edad es: ${edadUsuario}`;
   return false;
 }
