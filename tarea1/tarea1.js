@@ -7,7 +7,7 @@ const $botonCalcular = document.querySelector("#boton-calcular");
 
 $botonCalcular.onclick = function(){
   const salarioAnual = Number(document.querySelector("#salario-anual").value);
-  const cantidadMeses = 12
+  const cantidadMeses = 12;
   const salarioMensual = salarioAnual / cantidadMeses;
 
   document.querySelector("#salario-mensual").value = '$' + salarioMensual;
